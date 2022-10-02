@@ -9,7 +9,7 @@ export default function Navbar(){
                     <Link href='/'><a>Inicio</a></Link>
                     <Link href='/about'><a>Sobre Mim</a></Link>
                     <Link href='/about#projects'><a>Projetos</a></Link>
-                    <Link href='/about'><a>Sobre o site</a></Link>
+                    <Link href='/about#about_page'><a>Sobre o site</a></Link>
                 </nav>
             </div>
         </>

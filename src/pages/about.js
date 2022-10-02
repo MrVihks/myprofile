@@ -36,12 +36,12 @@ export default function About(){
                 </div>
                 <div id="projects">
                     <div id={Styles.projects}>
-                        <p>Alguns projetos que eu fiz:</p>
-                        <a>*Depois irei colocar  (estou arrumando)</a>
+                        <h2>Alguns projetos que eu fiz:</h2>
+                        <p>*Depois irei colocar  (estou arrumando)</p>
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div id="about_page">
+                    <div id={Styles.about_page}>
                         <h2>Você deve estar pensando, como este site foi feito, e onde foi hospedado ?</h2>
                         <p>Bem, o site foi feito inteiramente na framework Next.js, o site foi hospedado na Vercel.</p>
                     </div>
