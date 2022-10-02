@@ -40,6 +40,12 @@ export default function About(){
                         <a>*Depois irei colocar  (estou arrumando)</a>
                     </div>
                 </div>
+                <div>
+                    <div>
+                        <h2>Você deve estar pensando, como este site foi feito, e onde foi hospedado ?</h2>
+                        <p>Bem, o site foi feito inteiramente na framework Next.js, o site foi hospedado na Vercel.</p>
+                    </div>
+                </div>
             </main>
         </>
     );

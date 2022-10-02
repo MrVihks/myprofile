@@ -3,6 +3,7 @@
   margin-bottom: 10px;
 }
 #title{
+  color:#3d414a;
   padding:2px;
   padding-top:10px;
   text-align: center;
@@ -43,6 +44,6 @@
   text-decoration: none;
 }
 #buttons a:hover{
-  background-color:  #164E63;
-  color:#fff;
+  background-color:#013d58;
+  color:white;
 }
