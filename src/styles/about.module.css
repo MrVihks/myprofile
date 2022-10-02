@@ -99,3 +99,12 @@
     
     border-radius: 5px;
 }
+#softwares h2{
+    color: #3d414a;
+    font-weight: 600;
+    font-size: clamp(20px, 1.5vh, 2rem );
+}
+#softwares img{
+    border-radius: 5px;
+    margin-left: 20px;
+}
