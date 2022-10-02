@@ -1,5 +1,6 @@
-#header{
+#header h1{
     color:#3d414a;
+    font-size: clamp(22px, 2.5vw, 2rem );
 }
 #main, #header{
     margin-right: 2.5vh;
@@ -35,6 +36,7 @@
     display: flex;
     color:#3d414a;
     padding:5px;
+    margin-left:20px;
 }
 #language img{
     margin-right: 15px;
@@ -77,6 +79,7 @@
     border-radius: 5px;
 }
 #about_page{
+    margin-bottom:5vh;
     color:#3d414a;
     margin-top: 3vh;
 }
