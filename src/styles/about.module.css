@@ -78,13 +78,21 @@
 }
 #about_page{
     color:#3d414a;
+    margin-top: 3vh;
 }
 #about_page h2{
-    font-size: clamp(20px, 1.5vw, 2rem );
+    font-size: clamp(24px, 1.5vw, 2rem );
     font-weight: 600;
 
 }
 #about_page p{
     text-indent: 15px;
     font-size: clamp(16px, 1.2vw, 1.5rem );
+}
+#ide{
+    margin-left:20px;
+}
+#ide img{
+    
+    border-radius: 5px;
 }
