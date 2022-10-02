@@ -25,8 +25,8 @@ export default function Home() {
           <h4>Apenas um cara aleatório que ama programar 🤪😎.</h4>
         </div>
         <div id={Styles.buttons}>
-          <a href='https://github.com/MrVihks/' target="_blank" rel="noreferrer">Meu GitHub</a>
-          <a href='https://www.instagram.com/mrvihks/' target="_blank" rel="noreferrer">Meu Instagram</a>
+          <a href='https://github.com/MrVihks/' target="_blank" rel="noopener noreferrer">Meu GitHub</a>
+          <a href='https://www.instagram.com/mrvihks/' target="_blank" rel="noopener noreferrer">Meu Instagram</a>
         </div>
       </header>
     </>
