@@ -1,0 +1,48 @@
+#header{
+  margin-top: 5vh;
+  margin-bottom: 10px;
+}
+#title{
+  padding:2px;
+  padding-top:10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+#title h1{
+  padding:10px;
+  font-size: 30px;
+}
+#image_div{
+  position: relative;
+  width: 160px; 
+  height: 160px;
+  margin: auto;  
+  overflow: hidden;
+  border-radius: 50%; 
+
+}
+#buttons{
+  display: flex;
+  padding:15px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+#buttons a{
+  background-color:#0177ad;
+  display: block;
+  padding:10px;
+  margin-right: 20px;
+  width: fit-content;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: 600;
+  color:#fff;
+  transition-duration: 200ms;
+  text-decoration: none;
+}
+#buttons a:hover{
+  background-color:  #164E63;
+  color:#fff;
+}

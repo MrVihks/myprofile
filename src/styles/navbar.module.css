@@ -1,0 +1,19 @@
+#navbar{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#0177ad;
+    flex:1;
+}
+#navbar a {
+    padding:20px;
+    text-decoration: none;
+    font-size: clamp(10px, 1.5vw, 2rem );
+    transition-duration: 350ms;
+    color:#fff;
+}
+#navbar a:hover{
+    color:black;
+    background-color: #fff;
+}

@@ -1,0 +1,50 @@
+#header{
+    color:#22242a;
+}
+#main, #header{
+    margin-right: 2.5vh;
+    margin-left: 2.5vh;
+    margin-top:2vh;
+}
+#content{
+    padding:10px;
+    color:#22242a;
+    text-align: justify;
+    text-indent: 40px;
+    font-size:20px;
+}
+#projects p{
+    display: flex;
+    font-weight: 600;
+    font-size: 26px;
+}
+#projects{
+    margin-top: 2.5vh;
+}
+#language{
+    display: flex;
+    padding:5px;
+}
+#language img{
+    margin-right: 15px;
+    border-radius: 5px;
+    line-break: normal;
+}
+#tags_title{
+    font-size: 26px;
+    font-weight: 600;
+}
+#tags_content{
+    padding:2px;
+}
+#frameworks{
+    margin-top:2vh;
+}
+#frameworks h2{
+    font-weight: 600;
+    font-size:26px;
+}
+#frameworks h3{
+    font-weight: 600;
+    margin-left:20px;
+}

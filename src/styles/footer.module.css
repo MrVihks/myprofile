@@ -1,0 +1,25 @@
+#footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #46505c;
+    color:#fff;
+    
+}
+#footer p{
+    padding:3px;
+    margin-left: 10px;
+    font-weight: 600;
+    word-spacing: 1px;
+    font-size: clamp(11px,16px, 18px);
+}
+#footer a{
+    margin-left: 10px;
+    margin:2px;
+    font-size:14px;
+    font-weight: 600;
+
+}
+#footer img{
+    margin-left: 10px;
+    border-radius: 5px;
+}

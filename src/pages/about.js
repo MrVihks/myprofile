@@ -1,0 +1,45 @@
+import Head from "next/head";
+import Styles from '../styles/about.module.css'
+
+export default function About(){
+    return(
+        <>
+            <Head>
+                <title>Sobre Min</title>
+            </Head>
+            <header id={Styles.header}>
+                <h1>Tá, mas quem é Vinicius Henrique ?</h1>
+            </header>
+            <main id={Styles.main}>
+                <div id={Styles.content}>
+                    <p>Vinicius é um cara que começou a programar de verdade em 2019, antes eu já se interessava por programação, porém eu não entendia muito, com isso eu utilizava o famoso Scratch para brincar com lógica de programação.</p>
+                </div>
+                <div id={Styles.tags_content}>
+                    <h3 id={Styles.tags_title}>Linguagens que eu uso:</h3>
+                    <div id={Styles.language}>
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /></a>
+                        <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" /></a>
+                        <a href="https://www.lua.org/" target="_blank"><img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" /></a>
+                    </div>
+                </div>
+                <div id={Styles.frameworks}>
+                    <h2>Frameworks:</h2>
+                    <h3>Front-End:</h3>
+                        <div id={Styles.frontend}>
+                            <a></a>
+                        </div>
+                    <h3>Back-End:</h3>
+                        <div id={Styles.backend}>
+                            <a></a>
+                        </div>
+                </div>
+                <div id="projects">
+                    <div id={Styles.projects}>
+                        <p>Alguns projetos que eu fiz:</p>
+                        <a>*Depois irei colocar  (estou arrumando)</a>
+                    </div>
+                </div>
+            </main>
+        </>
+    );
+};
