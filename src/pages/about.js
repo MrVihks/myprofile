@@ -26,11 +26,12 @@ export default function About(){
                     <h2>Frameworks:</h2>
                     <h3>Front-End:</h3>
                         <div id={Styles.frontend}>
-                            <a></a>
+                            <a><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/></a>
+                            <a><img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/></a>
                         </div>
                     <h3>Back-End:</h3>
                         <div id={Styles.backend}>
-                            <a></a>
+                            <a><img src="https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white"/></a>
                         </div>
                 </div>
                 <div id="projects">
