@@ -15,5 +15,6 @@
 }
 #navbar a:hover{
     color:black;
+    padding:30px;
     background-color: #fff;
 }
