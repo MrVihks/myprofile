@@ -5,6 +5,7 @@
 #title{
   color:#3d414a;
   display: flex;
+  position: relative;
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -12,6 +13,8 @@
   padding:2px;
   padding-top:10px;
   text-align: center;
+  overflow: hidden;
+  animation: blink 6s infinite;
   font-family: Arial, Helvetica, sans-serif;
  
 }
@@ -33,7 +36,9 @@
   justify-content: center;
 }
 #buttons a{
-  background-color:#0177ad;
+  background: linear-gradient(-45deg,#0177ad , #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
   display: block;
   padding:10px;
   margin-right: 20px;
@@ -52,26 +57,37 @@
 }
 
 
-@keyframes blink{
+#imageafter{
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+#imageafter_div{
+  display: flex;
+  position: absolute; 
+  right: 45%;
+  bottom:20%;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-content: center;
+}
+
+@keyframes gradient{
   0%{
-      opacity: 100;
-  }
-  25%{
-    opacity: 50;
+    background-position: 0% 50%;
   }
   50%{
-    opacity: 0;
+    background-position: 100% 50%;
   }
   100%{
-    opacity: 50 ;
+    background-position: 0% 50%;
   }
 }
 
 #title h1{
   padding:10px;
   font-size: clamp(20px, 3vw, 2.5rem);
-  overflow: hidden;
-  animation: blink 6s infinite;
 }
 #title h4{
   font-size:clamp(14px, 1.5vw, 1.5rem);

@@ -1,9 +1,22 @@
+@keyframes gradient{
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
 #navbar{
     text-align: center;
     font-weight: bold;
     padding-top:20px;
     padding-bottom: 20px;
-    background-color:#0177ad;
+    background: linear-gradient(-45deg,#0177ad , #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
     flex:1;
 }
 #navbar a {
