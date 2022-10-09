@@ -52,32 +52,27 @@
 }
 
 
-@keyframes typing{
- from{
-    width: 0;
-  }
-}
 @keyframes blink{
-  from{
-    opacity: 100;
+  0%{
+      opacity: 100;
   }
-  to{
+  25%{
+    opacity: 50;
+  }
+  50%{
     opacity: 0;
   }
+  100%{
+    opacity: 50 ;
+  }
 }
+
 #title h1{
   padding:10px;
-  font-size: clamp(24px, 3vw, 2.5rem);
+  font-size: clamp(20px, 3vw, 2.5rem);
   overflow: hidden;
-  width: 30em;
-  animation: typing 8s steps(100, end); 
-  white-space: nowrap;
-  overflow: hidden;
-
+  animation: blink 6s infinite;
 }
 #title h4{
   font-size:clamp(14px, 1.5vw, 1.5rem);
-}
-#title span{
-  animation: blink 2.5s infinite;
 }
