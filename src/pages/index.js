@@ -17,11 +17,12 @@ export default function Home() {
             height={214}
             alt="Minha foto"
             quality={100}
+            placeholder="Carregando..."
             id={Styles.image}
           />
         </div>
         <div id={Styles.title}>
-          <h1>Vinicius Henrique</h1>
+          <h1>Vinicius Henrique <span>_</span></h1>
           <h4>Apenas um cara aleatório que ama programar 🤪😎.</h4>
         </div>
         <div id={Styles.buttons}>

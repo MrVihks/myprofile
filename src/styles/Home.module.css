@@ -4,16 +4,18 @@
 }
 #title{
   color:#3d414a;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding:2px;
   padding-top:10px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
  
 }
-#title h1{
-  padding:10px;
-  font-size: 30px;
-}
+
 #image_div{
   position: relative;
   width: 160px; 
@@ -45,5 +47,37 @@
 }
 #buttons a:hover{
   background-color:#013d58;
+  padding:12px;
   color:white;
+}
+
+
+@keyframes typing{
+ from{
+    width: 0;
+  }
+}
+@keyframes blink{
+  from{
+    opacity: 100;
+  }
+  to{
+    opacity: 0;
+  }
+}
+#title h1{
+  padding:10px;
+  font-size: clamp(24px, 3vw, 2.5rem);
+  overflow: hidden;
+  width: 30em;
+  animation: typing 8s steps(100, end); 
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+#title h4{
+  font-size:clamp(14px, 1.5vw, 1.5rem);
+}
+#title span{
+  animation: blink 2.5s infinite;
 }
